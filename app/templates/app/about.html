@@ -1,0 +1,25 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}About{% endblock title %}
+{% block main-content %}
+<div class=" bg-info">
+    <div class="col-sm-0 offset-sm-1">
+        <div class="row">
+         <div class="col-sm-6"><br>
+            <div><h1>About Us</h1></div>
+             <h3>FOOD HUB delivers differents type of foods in Kathmandu valey. As a pioneer food delivery service
+                  provider, we are making life easier through online ordering.</h3><br>
+                  <p>We know that your time is valuable and sometimes every minutes in the day counts.
+                       That's why deliver! So you can spend more time doing the things you love. You can 
+                       get anything from Indian food to high French cuisine by placing a simple order online 
+                       through our website or over the phone.Then just sit back, relax, and wait for your order
+                       to arrive.</p>
+                
+         </div>
+         <div class="col-sm-6">
+            <img src="{% static 'app/images/banner/b4.jpg' %}" alt="" class="w-100">
+         </div>
+        </div>
+    </div>
+</div>
+{% endblock main-content %}
